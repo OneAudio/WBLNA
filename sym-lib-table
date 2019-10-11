@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name WBLNA)(type Legacy)(uri ${KIPRJMOD}/WBLNA.lib)(options "")(descr ""))
+  (lib (name AAPSU01)(type Legacy)(uri "D:/Mes documents/P-CAD_PROJECTS/_PROJETS_ON/OSVA/PCBs/_AAPSU01/AAPSU01/AAPSU01.lib")(options "")(descr "")(disabled))
+  (lib (name _WBLNA-cache)(type Legacy)(uri ${KIPRJMOD}/_WBLNA-cache.lib)(options "")(descr "")(disabled))
+)

@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8510ARZ
+D Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers
+K single low noise low Ibias
+$ENDCMP
+#
+$CMP Case_1590LLB_Hammond
+D Hammon aluminium enclosure 1590LLB
+$ENDCMP
+#
+$CMP P4SMA12A
+D Surface Mount TRANSZORB®Transient Voltage Suppressors
+K Transient Voltage Suppressors TVS
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name WBLNA)(type KiCad)(uri ${KIPRJMOD}/WBLNA.pretty)(options "")(descr ""))
+)

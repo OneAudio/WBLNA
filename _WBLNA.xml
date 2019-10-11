@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Mes documents\P-CAD_PROJECTS\_PROJETS_ON\OSVA\PCBs\_WBLNA\Kicad\_WBLNA.sch</source>
+    <date>20/09/2019 08:41:46</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Wide bandwidth low noise amplifier</title>
+        <company>OnE Audio Projects</company>
+        <rev>1.0</rev>
+        <date>2019-08-30</date>
+        <source>_WBLNA.sch</source>
+        <comment number="1" value="10Hz -- 20 MHz / 20dB and 40dB output"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>39.2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW0805-39.2-E3</field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52D6CD</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>270pF/COG</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">77-VJ0805A271FXACBC</field>
+        <field name="Unit price">0.144</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52D76B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>BNC</value>
+      <footprint>WBLNA:BNC_edge_solderSMD</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1634523%7FC%7Fpdf%7FEnglish%7FENG_CD_1634523_C.pdf%7F5-1634523-1</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 571-5-1634523-1 </field>
+        <field name="Unit price">1.31</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52DA54</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW080549R9FKEAC</field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52DC09</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>499</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 71-CRCW0805499RFKEAC </field>
+        <field name="Unit price">0.162</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52DE63</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10pF/COG</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">77-VJ0805A100FXACBC</field>
+        <field name="Unit price">0.126</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52E2AC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW080549R9FKEAC</field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52EC24</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206071.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206071</field>
+        <field name="Unit price">0.033</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D55FE3C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW080549R9FKEAC</field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6075B0</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>220uF/20V OSCON</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x6.9</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C226.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 667-20SVPK220M </field>
+        <field name="Unit price">1.48</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6283BF</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206071.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206071</field>
+        <field name="Unit price">0.033</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6692D0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206071.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206071</field>
+        <field name="Unit price">0.033</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6693A2</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>BNC</value>
+      <footprint>WBLNA:BNC_edge_solderSMD</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1634523%7FC%7Fpdf%7FEnglish%7FENG_CD_1634523_C.pdf%7F5-1634523-1</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 571-5-1634523-1 </field>
+        <field name="Unit price">1.31</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D671018</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>BNC</value>
+      <footprint>WBLNA:BNC_edge_solderSMD</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1634523%7FC%7Fpdf%7FEnglish%7FENG_CD_1634523_C.pdf%7F5-1634523-1</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 571-5-1634523-1 </field>
+        <field name="Unit price">1.31</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6712AA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LT6200CS8-10#PBF</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/62001ff.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 584-LT6200CS8-10#PBF </field>
+        <field name="Unit price">3.28</field>
+      </fields>
+      <libsource lib="WBLNA" part="LT6200-10" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D67D83F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206065%20.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206065</field>
+        <field name="Unit price">0.04</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D67E70F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206065%20.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206065</field>
+        <field name="Unit price">0.04</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D687969</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>39.2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW0805-39.2-E3</field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D691483</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>270pF/COG</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">77-VJ0805A271FXACBC</field>
+        <field name="Unit price">0.144</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D691489</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>499</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 71-CRCW0805499RFKEAC </field>
+        <field name="Unit price">0.162</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D691495</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10pF/COG</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">77-VJ0805A100FXACBC</field>
+        <field name="Unit price">0.126</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D69149B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW080549R9FKEAC</field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6914B5</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206071.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206071</field>
+        <field name="Unit price">0.033</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6914C9</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206071.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206071</field>
+        <field name="Unit price">0.033</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6914DD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LT6200CS8-10#PBF</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/62001ff.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 584-LT6200CS8-10#PBF </field>
+        <field name="Unit price">3.28</field>
+      </fields>
+      <libsource lib="WBLNA" part="LT6200-10" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6914EE</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206065%20.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206065</field>
+        <field name="Unit price">0.04</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6914F7</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206065%20.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206065</field>
+        <field name="Unit price">0.04</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D691506</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>MBR0540</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">863-MBR0540T1G</field>
+        <field name="Unit price">0.271</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6A00D9</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>220uF/20V OSCON</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x6.9</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C226.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 667-20SVPK220M </field>
+        <field name="Unit price">1.48</field>
+      </fields>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6F18DF</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF/25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206071.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012206071</field>
+        <field name="Unit price">0.033</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6F18E6</tstamp>
+    </comp>
+    <comp ref="BOX1">
+      <value>Case_1590LLB_Hammond</value>
+      <footprint>WBLNA:1590LLB</footprint>
+      <datasheet>https://www.hammfg.com/files/parts/pdf/1590LLB.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">546-1590LLB</field>
+        <field name="Unit price">6.15</field>
+      </fields>
+      <libsource lib="WBLNA" part="Case_1590LLB_Hammond" description="Hammon aluminium enclosure 1590LLB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D685A79</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Jumper_NC_Dual</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 855-M20-9730345 </field>
+        <field name="Unit price">0.162</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NC_Dual" description="Dual jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D691F92</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Jumper_NC_Dual</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 855-M20-9730345 </field>
+        <field name="Unit price">0.162</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NC_Dual" description="Dual jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D692364</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 855-M20-9730245 </field>
+        <field name="Unit price">0.144</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6C5D32</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>P4SMA12A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.vishay.com/docs/88367/p4sma.pdf</datasheet>
+      <fields>
+        <field name="Description">Transil diode</field>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">625-P4SMA12A-E3</field>
+        <field name="Unit price">0.324</field>
+      </fields>
+      <libsource lib="WBLNA" part="P4SMA12A" description="Surface Mount TRANSZORB®Transient Voltage Suppressors"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6EB68D</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AD8510ARZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8510_8512_8513.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">584-AD8510ARZ</field>
+        <field name="Unit price">2.52</field>
+      </fields>
+      <libsource lib="WBLNA" part="AD8510ARZ" description="Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6E4919</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Jack-DC</value>
+      <footprint>WBLNA:BarrelJackSMD_Wurth_694108106102</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6941xx106102.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 710-694106106102 </field>
+        <field name="Unit price">1.54</field>
+      </fields>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D83DBB2</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1nF/50V COG 2%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">77-VJ0805A102GXACBC</field>
+        <field name="Unit price">0.189</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D753347</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.99k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 71-CRCW08054K99FKEAC </field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D753208</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code"> 71-CRCW080510R0FKEAC </field>
+        <field name="Unit price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D720D13</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW080510K0FKEAC</field>
+        <field name="Unit price">0.166</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D709E14</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BAT54SLT1-D.PDF</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">863-BAT54SLT1G</field>
+        <field name="Unit price">0.126</field>
+      </fields>
+      <libsource lib="Diode" part="BAT54S" description="schottky barrier diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5EF003</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW080510K0FKEAC</field>
+        <field name="Unit price">0.166</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6D3188</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22uF/10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012208019.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012208019</field>
+        <field name="Unit price">0.684</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71183A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22uF/10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012208019.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-885012208019</field>
+        <field name="Unit price">0.684</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D708019</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">71-CRCW080510K0FKEAC</field>
+        <field name="Unit price">0.166</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D738671</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Led 3mm green</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031VS06000.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">710-151031VS06000</field>
+        <field name="Unit price">0.14</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D74D290</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Dual">
+      <description>Dual jumper, normally closed</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT48ZFILM">
+      <aliases>
+        <alias>MBR0520LT</alias>
+        <alias>MBR0520</alias>
+        <alias>MBR0530</alias>
+        <alias>MBR0540</alias>
+        <alias>MBR0550</alias>
+        <alias>MBR0560</alias>
+        <alias>MBR0570</alias>
+        <alias>MBR0580</alias>
+        <alias>BAT42W-V</alias>
+        <alias>BAT43W-V</alias>
+        <alias>PMEG6010CEH</alias>
+      </aliases>
+      <description>40V 0.35A Small Signal Schottky Diode, SOD-123</description>
+      <docs>www.st.com/resource/en/datasheet/bat48.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT48ZFILM</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT54S">
+      <description>schottky barrier diode</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds11005.pdf</docs>
+      <footprints>
+        <fp>SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54S</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WBLNA" part="AD8510ARZ">
+      <description>Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers</description>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8510ARZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NULL" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NULL" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WBLNA" part="Case_1590LLB_Hammond">
+      <description>Hammon aluminium enclosure 1590LLB</description>
+      <footprints>
+        <fp>1590LLB</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BOX</field>
+        <field name="Value">Case_1590LLB_Hammond</field>
+      </fields>
+    </libpart>
+    <libpart lib="WBLNA" part="LT6200-10">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT6200-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SD" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WBLNA" part="P4SMA12A">
+      <description>Surface Mount TRANSZORB®Transient Voltage Suppressors</description>
+      <footprints>
+        <fp>D?DO?214AC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">P4SMA12A</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Description">Transil diode</field>
+        <field name="Distributor">Mouser</field>
+        <field name="Order code">TBD</field>
+        <field name="Unit price">TBD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="A1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="WBLNA">
+      <uri>D:\Mes documents\P-CAD_PROJECTS\_PROJETS_ON\OSVA\PCBs\_WBLNA\Kicad/WBLNA.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="2" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="6" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="7" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="11" name="Net-(C16-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D4-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="13" name="VEE">
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C9" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C19-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad3)">
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="17" name="VCC">
+      <node ref="C15" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="18" name="Net-(J6-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C8-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C11-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J7-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C5-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C13-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+  </nets>
+</export>
